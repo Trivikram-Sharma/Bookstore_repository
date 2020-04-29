@@ -14,7 +14,7 @@ public class BookDaoImpl implements BookDao{
 	
 	String url = "jdbc:mysql://localhost:3306/Bookstore";
 	String user = "root";
-	String password = "Root@pd12";
+	String password = "root";
 	public Connection getDbConnection() {
 		Connection connection = null;
 		try {
